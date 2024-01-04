@@ -11,5 +11,10 @@ namespace Conversor_de_Moedas
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
