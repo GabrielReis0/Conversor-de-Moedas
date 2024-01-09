@@ -16,5 +16,19 @@ namespace Conversor_de_Moedas
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedIndex == 1 && comboBox2.SelectedIndex == 0)
+            {
+                double num = Convert.ToDouble(textBox1.Text);
+                num = num * 0.1667;
+                textBox2.Text = Convert.ToString(num);
+            }
+            if (comboBox1.SelectedIndex == comboBox2.SelectedIndex)
+            {
+                MessageBox.Show("Não escolha o mesmo tipo de moeda.");
+            }
+        }
     }
 }
