@@ -1,18 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
 namespace Conversor_de_Moedas
 {
-    public partial class Form1 : Form
+    public partial class Form3 : Form
     {
-        public Form1()
+        public Form3()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void Form3_Load(object sender, EventArgs e)
         {
 
         }
@@ -27,7 +32,7 @@ namespace Conversor_de_Moedas
             }
             if (comboBox1.SelectedIndex == comboBox2.SelectedIndex)
             {
-                MessageBox.Show("N�o escolha o mesmo tipo de moeda.");
+                MessageBox.Show("Não escolha o mesmo tipo de moeda.");
             }
 
             if (comboBox1.SelectedIndex == 0 && comboBox2.SelectedIndex == 1)
@@ -688,16 +693,6 @@ namespace Conversor_de_Moedas
 
 
         }
-
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void backgroundWorker1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
-        {
-
-        }
     }
-}
+    }
+
