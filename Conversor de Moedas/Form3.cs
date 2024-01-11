@@ -693,6 +693,14 @@ namespace Conversor_de_Moedas
 
 
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedIndex == 0)
+            {
+               
+            }
+        }
     }
-    }
+}
 

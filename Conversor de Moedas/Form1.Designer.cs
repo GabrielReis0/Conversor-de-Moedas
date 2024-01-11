@@ -47,7 +47,7 @@
             // 
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Euro", "Real", "Dolár Americano", "Kwanza", "Libra", "Iene Japonês", "Peso colombiano", "Rúpia Indiana", "Dolár Canadense", "Libra egípcia", "Franco suíço" });
-            comboBox1.Location = new Point(99, 115);
+            comboBox1.Location = new Point(42, 61);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(124, 23);
             comboBox1.TabIndex = 0;
@@ -57,21 +57,21 @@
             // 
             comboBox2.FormattingEnabled = true;
             comboBox2.Items.AddRange(new object[] { "Euro", "Real", "Dólar Americano", "Kwanza", "Libra", "Iene Japonês", "Peso colombiano", "Rúpia Indiana", "Dolár Canadense", "Libra egípcia", "Franco suíço" });
-            comboBox2.Location = new Point(478, 115);
+            comboBox2.Location = new Point(421, 61);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(121, 23);
             comboBox2.TabIndex = 1;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(99, 149);
+            textBox1.Location = new Point(42, 95);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(125, 23);
             textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(478, 149);
+            textBox2.Location = new Point(421, 95);
             textBox2.Name = "textBox2";
             textBox2.ReadOnly = true;
             textBox2.Size = new Size(121, 23);
@@ -82,7 +82,7 @@
             pictureBox1.BackgroundImage = Properties.Resources.arrowright_2_;
             pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(241, 115);
+            pictureBox1.Location = new Point(184, 61);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(222, 99);
             pictureBox1.TabIndex = 4;
@@ -92,7 +92,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(117, 97);
+            label1.Location = new Point(60, 43);
             label1.Name = "label1";
             label1.Size = new Size(89, 15);
             label1.TabIndex = 5;
@@ -101,7 +101,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(496, 97);
+            label2.Location = new Point(439, 43);
             label2.Name = "label2";
             label2.Size = new Size(89, 15);
             label2.TabIndex = 6;
@@ -110,7 +110,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(126, 175);
+            label3.Location = new Point(69, 121);
             label3.Name = "label3";
             label3.Size = new Size(72, 15);
             label3.TabIndex = 7;
@@ -119,7 +119,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(503, 175);
+            label4.Location = new Point(446, 121);
             label4.Name = "label4";
             label4.Size = new Size(72, 15);
             label4.TabIndex = 8;
@@ -127,7 +127,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(241, 220);
+            button1.Location = new Point(184, 166);
             button1.Name = "button1";
             button1.Size = new Size(222, 50);
             button1.TabIndex = 9;
@@ -143,7 +143,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(726, 450);
+            ClientSize = new Size(580, 243);
             Controls.Add(button1);
             Controls.Add(label4);
             Controls.Add(label3);
