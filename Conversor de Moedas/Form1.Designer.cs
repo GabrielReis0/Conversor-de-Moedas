@@ -45,7 +45,7 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Euro", "Real", "Dolár Americano", "Kwanza", "Libra" });
+            comboBox1.Items.AddRange(new object[] { "Euro", "Real", "Dolár Americano", "Kwanza", "Libra", "Iene Japonês", "Peso colombiano", "Rúpia Indiana", "Dolár Canadense", "Libra egpícia", "Franco suíço" });
             comboBox1.Location = new Point(99, 115);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(124, 23);
@@ -55,7 +55,7 @@
             // comboBox2
             // 
             comboBox2.FormattingEnabled = true;
-            comboBox2.Items.AddRange(new object[] { "Euro", "Real", "Dólar Americano", "Kwanza", "Libra" });
+            comboBox2.Items.AddRange(new object[] { "Euro", "Real", "Dólar Americano", "Kwanza", "Libra", "Iene Japonês", "Peso colombiano", "Rúpia Indiana", "Dolár Canadense", "Libra egpícia", "Franco suíço" });
             comboBox2.Location = new Point(478, 115);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(121, 23);
