@@ -35,7 +35,7 @@
             // btnIniciar
             // 
             btnIniciar.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnIniciar.Location = new Point(344, 270);
+            btnIniciar.Location = new Point(670, 420);
             btnIniciar.Name = "btnIniciar";
             btnIniciar.Size = new Size(203, 87);
             btnIniciar.TabIndex = 0;
@@ -46,10 +46,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Stencil", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(273, 58);
+            label1.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(627, 87);
             label1.Name = "label1";
-            label1.Size = new Size(358, 34);
+            label1.Size = new Size(320, 33);
             label1.TabIndex = 1;
             label1.Text = "Conversor de Moedas";
             // 
@@ -58,7 +58,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(832, 516);
+            ClientSize = new Size(1478, 844);
             Controls.Add(label1);
             Controls.Add(btnIniciar);
             Name = "Form4";

@@ -77,7 +77,7 @@ namespace Conversor_de_Moedas
                 this.Hide();
                 Form2 form2 = new Form2();
                 form2.ShowDialog();
-                this.Show();
+                this.Show();   
             }
         }
 

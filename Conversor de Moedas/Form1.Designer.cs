@@ -46,7 +46,7 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(378, 332);
+            button1.Location = new Point(651, 427);
             button1.Name = "button1";
             button1.Size = new Size(165, 87);
             button1.TabIndex = 0;
@@ -56,7 +56,7 @@
             // 
             // txtNome
             // 
-            txtNome.Location = new Point(321, 99);
+            txtNome.Location = new Point(594, 194);
             txtNome.Name = "txtNome";
             txtNome.Size = new Size(288, 23);
             txtNome.TabIndex = 1;
@@ -64,7 +64,7 @@
             // 
             // txtGmail
             // 
-            txtGmail.Location = new Point(321, 182);
+            txtGmail.Location = new Point(594, 277);
             txtGmail.Name = "txtGmail";
             txtGmail.Size = new Size(288, 23);
             txtGmail.TabIndex = 2;
@@ -72,7 +72,7 @@
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(321, 265);
+            txtPassword.Location = new Point(594, 360);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(288, 23);
             txtPassword.TabIndex = 3;
@@ -82,7 +82,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(321, 71);
+            label1.Location = new Point(594, 166);
             label1.Name = "label1";
             label1.Size = new Size(61, 25);
             label1.TabIndex = 4;
@@ -93,7 +93,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(321, 154);
+            label2.Location = new Point(594, 249);
             label2.Name = "label2";
             label2.Size = new Size(54, 25);
             label2.TabIndex = 5;
@@ -104,7 +104,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(321, 233);
+            label3.Location = new Point(594, 328);
             label3.Name = "label3";
             label3.Size = new Size(87, 25);
             label3.TabIndex = 6;
@@ -115,7 +115,7 @@
             // 
             checkBoxPassword.AutoSize = true;
             checkBoxPassword.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            checkBoxPassword.Location = new Point(489, 238);
+            checkBoxPassword.Location = new Point(762, 333);
             checkBoxPassword.Name = "checkBoxPassword";
             checkBoxPassword.Size = new Size(120, 19);
             checkBoxPassword.TabIndex = 7;
@@ -128,7 +128,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(830, 465);
+            ClientSize = new Size(1478, 754);
             Controls.Add(checkBoxPassword);
             Controls.Add(label3);
             Controls.Add(label2);

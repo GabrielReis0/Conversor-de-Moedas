@@ -41,16 +41,19 @@
             comboBox1 = new ComboBox();
             pictureBox3 = new PictureBox();
             pictureBox2 = new PictureBox();
+            pictureBox4 = new PictureBox();
+            label5 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(327, 234);
+            button1.Location = new Point(638, 398);
             button1.Name = "button1";
-            button1.Size = new Size(222, 114);
+            button1.Size = new Size(228, 117);
             button1.TabIndex = 19;
             button1.Text = "Converter";
             button1.UseVisualStyleBackColor = true;
@@ -60,7 +63,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(591, 210);
+            label4.Location = new Point(902, 374);
             label4.Name = "label4";
             label4.Size = new Size(94, 21);
             label4.TabIndex = 18;
@@ -70,7 +73,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(189, 210);
+            label3.Location = new Point(500, 374);
             label3.Name = "label3";
             label3.Size = new Size(94, 21);
             label3.TabIndex = 17;
@@ -80,7 +83,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(569, 119);
+            label2.Location = new Point(880, 283);
             label2.Name = "label2";
             label2.Size = new Size(116, 21);
             label2.TabIndex = 16;
@@ -90,7 +93,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(179, 119);
+            label1.Location = new Point(490, 283);
             label1.Name = "label1";
             label1.Size = new Size(116, 21);
             label1.TabIndex = 15;
@@ -101,69 +104,92 @@
             pictureBox1.BackgroundImage = Properties.Resources.arrowright_2_;
             pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(327, 143);
+            pictureBox1.Location = new Point(638, 307);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(209, 81);
+            pictureBox1.Size = new Size(215, 84);
             pictureBox1.TabIndex = 14;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(564, 177);
+            textBox2.Location = new Point(875, 341);
             textBox2.Name = "textBox2";
             textBox2.ReadOnly = true;
-            textBox2.Size = new Size(141, 23);
+            textBox2.Size = new Size(147, 23);
             textBox2.TabIndex = 13;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(163, 177);
+            textBox1.Location = new Point(474, 341);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(147, 23);
+            textBox1.Size = new Size(153, 23);
             textBox1.TabIndex = 12;
             // 
             // comboBox2
             // 
             comboBox2.FormattingEnabled = true;
             comboBox2.Items.AddRange(new object[] { "Euro", "Real", "Dólar Americano", "Kwanza", "Libra", "Iene Japonês", "Peso colombiano", "Rúpia Indiana", "Dolár Canadense", "Libra egípcia", "Franco suíço" });
-            comboBox2.Location = new Point(564, 143);
+            comboBox2.Location = new Point(875, 307);
             comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(141, 23);
+            comboBox2.Size = new Size(147, 23);
             comboBox2.TabIndex = 11;
             // 
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Euro", "Real", "Dolár Americano", "Kwanza", "Libra", "Iene Japonês", "Peso colombiano", "Rúpia Indiana", "Dolár Canadense", "Libra egípcia", "Franco suíço" });
-            comboBox1.Location = new Point(163, 143);
+            comboBox1.Location = new Point(474, 307);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(146, 23);
+            comboBox1.Size = new Size(152, 23);
             comboBox1.TabIndex = 10;
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // pictureBox3
             // 
-            pictureBox3.Location = new Point(564, 234);
+            pictureBox3.Location = new Point(875, 398);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(141, 114);
+            pictureBox3.Size = new Size(147, 117);
             pictureBox3.TabIndex = 21;
             pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
-            pictureBox2.Location = new Point(163, 234);
+            pictureBox2.Location = new Point(474, 398);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(142, 114);
+            pictureBox2.Size = new Size(148, 117);
             pictureBox2.TabIndex = 22;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.Image = Properties.Resources.imagem_2024_01_17_221830082_removebg_preview;
+            pictureBox4.Location = new Point(1312, 22);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(113, 54);
+            pictureBox4.TabIndex = 23;
+            pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Location = new Point(1326, 79);
+            label5.Name = "label5";
+            label5.Size = new Size(87, 25);
+            label5.TabIndex = 24;
+            label5.Text = "Utilizador";
             // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(827, 490);
+            ClientSize = new Size(1475, 841);
+            Controls.Add(label5);
+            Controls.Add(pictureBox4);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox3);
             Controls.Add(button1);
@@ -182,6 +208,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -200,5 +227,7 @@
         private ComboBox comboBox1;
         private PictureBox pictureBox3;
         private PictureBox pictureBox2;
+        private PictureBox pictureBox4;
+        private Label label5;
     }
 }
