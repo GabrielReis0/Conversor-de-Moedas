@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Conversor_de_Moedas
 {
-    internal class Class1
+    internal class Utilizador
     {
         public string Nome;
         public string Email;

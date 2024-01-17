@@ -30,6 +30,7 @@
         {
             progressBar1 = new ProgressBar();
             label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // progressBar1
@@ -38,6 +39,7 @@
             progressBar1.Name = "progressBar1";
             progressBar1.Size = new Size(516, 23);
             progressBar1.TabIndex = 1;
+            progressBar1.Click += progressBar1_Click;
             // 
             // label1
             // 
@@ -49,12 +51,24 @@
             label1.TabIndex = 2;
             label1.Text = "Carregando";
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(782, 58);
+            label2.Name = "label2";
+            label2.Size = new Size(87, 25);
+            label2.TabIndex = 3;
+            label2.Text = "Utilizador";
+            label2.Click += label2_Click;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(833, 499);
+            ClientSize = new Size(897, 562);
+            Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(progressBar1);
             Name = "Form2";
@@ -67,5 +81,6 @@
         #endregion
         private ProgressBar progressBar1;
         private Label label1;
+        private Label label2;
     }
 }
