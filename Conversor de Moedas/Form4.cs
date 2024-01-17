@@ -16,5 +16,13 @@ namespace Conversor_de_Moedas
         {
             InitializeComponent();
         }
+
+        private void btnIniciar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 form1 = new Form1();
+            form1.ShowDialog();
+            this.Show();
+        }
     }
 }

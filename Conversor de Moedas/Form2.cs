@@ -20,7 +20,7 @@ namespace Conversor_de_Moedas
 
 
             progressBar1.Minimum = 0;
-            progressBar1.Maximum = 200;
+            progressBar1.Maximum = 300;
             progressBar1.Value = 0;
 
             for (int i = 0; i <= 200; i++)
@@ -29,6 +29,10 @@ namespace Conversor_de_Moedas
 
                 System.Threading.Thread.Sleep(50);
             }
+            this.Hide();
+            Form3 form3 = new Form3();
+            form3.ShowDialog();
+            this.Show();
         }
 
         private void Form2_Load(object sender, EventArgs e)
