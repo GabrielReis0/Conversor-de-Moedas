@@ -28,12 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form2";
+            progressBar1 = new ProgressBar();
+            label1 = new Label();
+            SuspendLayout();
+            // 
+            // progressBar1
+            // 
+            progressBar1.Location = new Point(192, 249);
+            progressBar1.Name = "progressBar1";
+            progressBar1.Size = new Size(516, 23);
+            progressBar1.TabIndex = 1;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(192, 221);
+            label1.Name = "label1";
+            label1.Size = new Size(105, 25);
+            label1.TabIndex = 2;
+            label1.Text = "Carregando";
+            // 
+            // Form2
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
+            ClientSize = new Size(833, 499);
+            Controls.Add(label1);
+            Controls.Add(progressBar1);
+            Name = "Form2";
+            Text = "Form2";
+            Load += Form2_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+        private ProgressBar progressBar1;
+        private Label label1;
     }
 }

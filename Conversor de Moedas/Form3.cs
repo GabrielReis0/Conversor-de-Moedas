@@ -698,8 +698,13 @@ namespace Conversor_de_Moedas
         {
             if (comboBox1.SelectedIndex == 0)
             {
-               
+
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

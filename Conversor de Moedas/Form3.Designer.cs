@@ -48,9 +48,9 @@
             // 
             // button1
             // 
-            button1.Location = new Point(166, 176);
+            button1.Location = new Point(327, 234);
             button1.Name = "button1";
-            button1.Size = new Size(222, 50);
+            button1.Size = new Size(222, 114);
             button1.TabIndex = 19;
             button1.Text = "Converter";
             button1.UseVisualStyleBackColor = true;
@@ -59,36 +59,40 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(428, 118);
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Location = new Point(591, 210);
             label4.Name = "label4";
-            label4.Size = new Size(72, 15);
+            label4.Size = new Size(94, 21);
             label4.TabIndex = 18;
             label4.Text = "Quantidade:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(52, 118);
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(189, 210);
             label3.Name = "label3";
-            label3.Size = new Size(72, 15);
+            label3.Size = new Size(94, 21);
             label3.TabIndex = 17;
             label3.Text = "Quantidade:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(421, 40);
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(569, 119);
             label2.Name = "label2";
-            label2.Size = new Size(89, 15);
+            label2.Size = new Size(116, 21);
             label2.TabIndex = 16;
             label2.Text = "Tipo de moeda:";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(42, 40);
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(179, 119);
             label1.Name = "label1";
-            label1.Size = new Size(89, 15);
+            label1.Size = new Size(116, 21);
             label1.TabIndex = 15;
             label1.Text = "Tipo de moeda:";
             // 
@@ -97,59 +101,60 @@
             pictureBox1.BackgroundImage = Properties.Resources.arrowright_2_;
             pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(166, 58);
+            pictureBox1.Location = new Point(327, 143);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(222, 99);
+            pictureBox1.Size = new Size(209, 81);
             pictureBox1.TabIndex = 14;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(403, 92);
+            textBox2.Location = new Point(564, 177);
             textBox2.Name = "textBox2";
             textBox2.ReadOnly = true;
-            textBox2.Size = new Size(121, 23);
+            textBox2.Size = new Size(141, 23);
             textBox2.TabIndex = 13;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(28, 92);
+            textBox1.Location = new Point(163, 177);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(121, 23);
+            textBox1.Size = new Size(147, 23);
             textBox1.TabIndex = 12;
             // 
             // comboBox2
             // 
             comboBox2.FormattingEnabled = true;
             comboBox2.Items.AddRange(new object[] { "Euro", "Real", "Dólar Americano", "Kwanza", "Libra", "Iene Japonês", "Peso colombiano", "Rúpia Indiana", "Dolár Canadense", "Libra egípcia", "Franco suíço" });
-            comboBox2.Location = new Point(403, 58);
+            comboBox2.Location = new Point(564, 143);
             comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(121, 23);
+            comboBox2.Size = new Size(141, 23);
             comboBox2.TabIndex = 11;
             // 
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Euro", "Real", "Dolár Americano", "Kwanza", "Libra", "Iene Japonês", "Peso colombiano", "Rúpia Indiana", "Dolár Canadense", "Libra egípcia", "Franco suíço" });
-            comboBox1.Location = new Point(28, 58);
+            comboBox1.Location = new Point(163, 143);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(120, 23);
+            comboBox1.Size = new Size(146, 23);
             comboBox1.TabIndex = 10;
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // pictureBox3
             // 
-            pictureBox3.Location = new Point(403, 136);
+            pictureBox3.Location = new Point(564, 234);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(121, 114);
+            pictureBox3.Size = new Size(141, 114);
             pictureBox3.TabIndex = 21;
             pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
-            pictureBox2.Location = new Point(28, 136);
+            pictureBox2.Location = new Point(163, 234);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(121, 114);
+            pictureBox2.Size = new Size(142, 114);
             pictureBox2.TabIndex = 22;
             pictureBox2.TabStop = false;
             // 
@@ -157,7 +162,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(555, 262);
+            BackColor = SystemColors.ActiveCaption;
+            ClientSize = new Size(827, 490);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox3);
             Controls.Add(button1);

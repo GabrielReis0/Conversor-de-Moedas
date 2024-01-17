@@ -16,5 +16,10 @@ namespace Conversor_de_Moedas
         {
             InitializeComponent();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
