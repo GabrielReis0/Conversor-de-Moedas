@@ -696,6 +696,8 @@ namespace Conversor_de_Moedas
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -705,11 +707,30 @@ namespace Conversor_de_Moedas
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+            if (comboBox1.SelectedIndex == 0)
+            {
+                pictureBox2.Image = Image.FromFile("C:/PictureBox/euro.png");
+            }
+           if (comboBox1.SelectedIndex == 1)
+            {
+                pictureBox2.Image = Image.FromFile("C:/PictureBox/real.png");
+            }
+
 
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
