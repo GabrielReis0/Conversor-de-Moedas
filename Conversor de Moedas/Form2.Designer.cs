@@ -40,11 +40,11 @@
             // 
             progressBar1.Location = new Point(120, 654);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(1271, 23);
+            progressBar1.Size = new Size(1000, 23);
             progressBar1.TabIndex = 1;
             progressBar1.Click += progressBar1_Click;
+            progressBar1.MouseEnter += progressBar1_MouseHover;
             progressBar1.MouseLeave += progressBar1_MouseLeave;
-            progressBar1.MouseHover += progressBar1_MouseHover;
             // 
             // label1
             // 
@@ -60,7 +60,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(1304, 79);
+            label2.Location = new Point(1042, 65);
             label2.Name = "label2";
             label2.Size = new Size(87, 25);
             label2.TabIndex = 3;
@@ -69,7 +69,7 @@
             // 
             // btnPágConvert
             // 
-            btnPágConvert.Location = new Point(643, 468);
+            btnPágConvert.Location = new Point(559, 383);
             btnPágConvert.Name = "btnPágConvert";
             btnPágConvert.Size = new Size(214, 137);
             btnPágConvert.TabIndex = 4;
@@ -79,7 +79,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(1295, 26);
+            pictureBox1.Location = new Point(1033, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(107, 50);
             pictureBox1.TabIndex = 5;
@@ -91,7 +91,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(1475, 847);
+            ClientSize = new Size(1152, 749);
             Controls.Add(pictureBox1);
             Controls.Add(btnPágConvert);
             Controls.Add(label2);
