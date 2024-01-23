@@ -18,22 +18,24 @@ namespace Conversor_de_Moedas
         {
             InitializeComponent();
 
+
             btnPágConvert.Visible = false;
-            label1.Visible = true;
+            label1.Visible = false;
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
-
         }
+
         private void progressBar1_MouseHover(object sender, EventArgs e)
         {
-            progressBar1.Value = 50;
-            progressBar1.Visible = true;
+            label3.Visible = false;
 
+            progressBar1.Value = 50;
             progressBar1.Minimum = 0;
             progressBar1.Maximum = 300;
             progressBar1.Value = 0;
+            label1.Visible = true;
 
             for (int i = 0; i <= 300; i++)
             {
@@ -43,8 +45,9 @@ namespace Conversor_de_Moedas
             }
 
             progressBar1.Visible = false;
-            label1.Visible = false;
             btnPágConvert.Visible = true;
+            label1.Visible = false;
+
         }
         private void progressBar1_MouseLeave(object sender, EventArgs e)
         {
@@ -73,5 +76,16 @@ namespace Conversor_de_Moedas
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

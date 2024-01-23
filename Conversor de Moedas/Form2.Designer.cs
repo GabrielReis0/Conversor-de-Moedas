@@ -28,19 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             progressBar1 = new ProgressBar();
             label1 = new Label();
             label2 = new Label();
             btnPágConvert = new Button();
+            label3 = new Label();
             pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(120, 654);
+            progressBar1.Location = new Point(46, 877);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(1000, 23);
+            progressBar1.Size = new Size(1848, 23);
             progressBar1.TabIndex = 1;
             progressBar1.Click += progressBar1_Click;
             progressBar1.MouseEnter += progressBar1_MouseHover;
@@ -49,39 +51,57 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(120, 626);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(46, 846);
             label1.Name = "label1";
-            label1.Size = new Size(105, 25);
+            label1.Size = new Size(115, 28);
             label1.TabIndex = 2;
             label1.Text = "Carregando";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(1042, 65);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(1771, 126);
             label2.Name = "label2";
-            label2.Size = new Size(87, 25);
+            label2.Size = new Size(105, 30);
             label2.TabIndex = 3;
             label2.Text = "Utilizador";
             label2.Click += label2_Click;
             // 
             // btnPágConvert
             // 
-            btnPágConvert.Location = new Point(559, 383);
+            btnPágConvert.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            btnPágConvert.Location = new Point(798, 433);
             btnPágConvert.Name = "btnPágConvert";
-            btnPágConvert.Size = new Size(214, 137);
+            btnPágConvert.Size = new Size(231, 153);
             btnPágConvert.TabIndex = 4;
-            btnPágConvert.Text = "Página Converções";
+            btnPágConvert.Text = " Converções";
             btnPágConvert.UseVisualStyleBackColor = true;
             btnPágConvert.Click += button1_Click;
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(46, 818);
+            label3.Name = "label3";
+            label3.Size = new Size(255, 28);
+            label3.TabIndex = 6;
+            label3.Text = "Deslizar o ponteiro na barra";
+            label3.Click += label3_Click;
+            // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(1033, 12);
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
+            pictureBox1.Location = new Point(1771, 38);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(107, 50);
+            pictureBox1.Size = new Size(103, 85);
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -91,7 +111,8 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(1152, 749);
+            ClientSize = new Size(1924, 951);
+            Controls.Add(label3);
             Controls.Add(pictureBox1);
             Controls.Add(btnPágConvert);
             Controls.Add(label2);
@@ -110,6 +131,7 @@
         private Label label1;
         private Label label2;
         private Button btnPágConvert;
+        private Label label3;
         private PictureBox pictureBox1;
     }
 }
