@@ -15,6 +15,7 @@ namespace Conversor_de_Moedas
         public Form3()
         {
             InitializeComponent();
+            label7.Text = (Utilizador.Nome);
         }
 
         private void Form3_Load(object sender, EventArgs e)
@@ -696,7 +697,50 @@ namespace Conversor_de_Moedas
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            if (comboBox1.SelectedIndex == 0)
+            {
+                pictureBox3.BackgroundImage = Image.FromFile("C:/PictureBox/euro.png");
+            }
+            if (comboBox1.SelectedIndex == 1)
+            {
+                pictureBox3.BackgroundImage = Image.FromFile("C:/PictureBox/real.png");
+            }
+            if (comboBox1.SelectedIndex == 2)
+            {
+                pictureBox3.BackgroundImage = Image.FromFile("C:/PictureBox/dolar.png");
+            }
+            if (comboBox1.SelectedIndex == 3)
+            {
+                pictureBox3.BackgroundImage = Image.FromFile("C:/PictureBox/kwanza.png");
+            }
+            if (comboBox1.SelectedIndex == 4)
+            {
+                pictureBox3.BackgroundImage = Image.FromFile("C:/PictureBox/libra.png");
+            }
+            if (comboBox1.SelectedIndex == 5)
+            {
+                pictureBox3.BackgroundImage = Image.FromFile("C:/PictureBox/iene.png");
+            }
+            if (comboBox1.SelectedIndex == 6)
+            {
+                pictureBox3.BackgroundImage = Image.FromFile("C:/PictureBox/pesos.png");
+            }
+            if (comboBox1.SelectedIndex == 7)
+            {
+                pictureBox3.BackgroundImage = Image.FromFile("C:/PictureBox/rupia.png");
+            }
+            if (comboBox1.SelectedIndex == 8)
+            {
+                pictureBox3.BackgroundImage = Image.FromFile("C:/PictureBox/dolarc.png");
+            }
+            if (comboBox1.SelectedIndex == 9)
+            {
+                pictureBox3.BackgroundImage = Image.FromFile("C:/PictureBox/librae.png");
+            }
+            if (comboBox1.SelectedIndex == 10)
+            {
+                pictureBox3.BackgroundImage = Image.FromFile("C:/PictureBox/franco.png");
+            }
 
         }
 
@@ -707,14 +751,7 @@ namespace Conversor_de_Moedas
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            if (comboBox1.SelectedIndex == 0)
-            {
-                pictureBox2.Image = Image.FromFile("C:/PictureBox/euro.png");
-            }
-           if (comboBox1.SelectedIndex == 1)
-            {
-                pictureBox2.Image = Image.FromFile("C:/PictureBox/real.png");
-            }
+
 
 
         }
@@ -731,6 +768,58 @@ namespace Conversor_de_Moedas
         private void pictureBox3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            label6.Text = (Utilizador.Nome);
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox2.SelectedIndex == 0)
+            {
+                pictureBox2.BackgroundImage = Image.FromFile("C:/PictureBox/euro.png");
+            }
+            if (comboBox2.SelectedIndex == 1)
+            {
+                pictureBox2.BackgroundImage = Image.FromFile("C:/PictureBox/real.png");
+            }
+            if (comboBox2.SelectedIndex == 2)
+            {
+                pictureBox2.BackgroundImage = Image.FromFile("C:/PictureBox/dolar.png");
+            }
+            if (comboBox2.SelectedIndex == 3)
+            {
+                pictureBox2.BackgroundImage = Image.FromFile("C:/PictureBox/kwanza.png");
+            }
+            if (comboBox2.SelectedIndex == 4)
+            {
+                pictureBox2.BackgroundImage = Image.FromFile("C:/PictureBox/libra.png");
+            }
+            if (comboBox2.SelectedIndex == 5)
+            {
+                pictureBox2.BackgroundImage = Image.FromFile("C:/PictureBox/iene.png");
+            }
+            if (comboBox2.SelectedIndex == 6)
+            {
+                pictureBox2.BackgroundImage = Image.FromFile("C:/PictureBox/pesos.png");
+            }
+            if (comboBox2.SelectedIndex == 7)
+            {
+                pictureBox2.BackgroundImage = Image.FromFile("C:/PictureBox/rupia.png");
+            }
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+          
         }
     }
 }

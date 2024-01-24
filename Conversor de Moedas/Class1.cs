@@ -8,9 +8,9 @@ namespace Conversor_de_Moedas
 {
     internal class Utilizador
     {
-        public string Nome;
-        public string Email;
-        public string Password;
+        public static string Nome = "";
+        public static string Email = "";
+        public static string Password = "";
 
 
         public Utilizador(string nome, string email, string password) // Os construtores são tipos especiais de métodos usados ​​para criar e inicializar objetos numa classe. 

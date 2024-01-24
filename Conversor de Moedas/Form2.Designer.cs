@@ -75,9 +75,9 @@
             // btnPágConvert
             // 
             btnPágConvert.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            btnPágConvert.Location = new Point(798, 433);
+            btnPágConvert.Location = new Point(526, 344);
             btnPágConvert.Name = "btnPágConvert";
-            btnPágConvert.Size = new Size(231, 153);
+            btnPágConvert.Size = new Size(175, 106);
             btnPágConvert.TabIndex = 4;
             btnPágConvert.Text = " Converções";
             btnPágConvert.UseVisualStyleBackColor = true;
@@ -111,7 +111,9 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(1924, 951);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Zoom;
+            ClientSize = new Size(870, 749);
             Controls.Add(label3);
             Controls.Add(pictureBox1);
             Controls.Add(btnPágConvert);
