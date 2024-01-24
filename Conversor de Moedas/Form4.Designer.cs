@@ -38,7 +38,7 @@
             btnIniciar.BackColor = Color.Gold;
             btnIniciar.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             btnIniciar.ForeColor = Color.Black;
-            btnIniciar.Location = new Point(889, 575);
+            btnIniciar.Location = new Point(226, 358);
             btnIniciar.Name = "btnIniciar";
             btnIniciar.Size = new Size(203, 87);
             btnIniciar.TabIndex = 0;
@@ -50,11 +50,11 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Microsoft Sans Serif", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.Black;
-            label1.Location = new Point(840, 279);
+            label1.Location = new Point(121, 146);
             label1.Name = "label1";
-            label1.Size = new Size(320, 33);
+            label1.Size = new Size(406, 42);
             label1.TabIndex = 1;
             label1.Text = "Conversor de Moedas";
             label1.Click += label1_Click;
@@ -65,7 +65,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1566, 891);
+            ClientSize = new Size(654, 519);
             Controls.Add(label1);
             Controls.Add(btnIniciar);
             ForeColor = Color.Black;

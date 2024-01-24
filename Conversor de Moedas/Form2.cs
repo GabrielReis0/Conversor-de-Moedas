@@ -20,7 +20,7 @@ namespace Conversor_de_Moedas
 
 
             btnPágConvert.Visible = false;
-            label1.Visible = false;
+          
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -33,11 +33,14 @@ namespace Conversor_de_Moedas
 
             progressBar1.Value = 50;
             progressBar1.Minimum = 0;
-            progressBar1.Maximum = 300;
+            progressBar1.Maximum = 200;
             progressBar1.Value = 0;
-            label1.Visible = true;
 
-            for (int i = 0; i <= 300; i++)
+
+
+
+
+            for (int i = 0; i <= 200; i++)
             {
                 progressBar1.Value = i;
 
@@ -46,12 +49,14 @@ namespace Conversor_de_Moedas
 
             progressBar1.Visible = false;
             btnPágConvert.Visible = true;
-            label1.Visible = false;
+            label4.Text = ("Bem vindo," + Utilizador.Nome);
+
 
         }
         private void progressBar1_MouseLeave(object sender, EventArgs e)
         {
             progressBar1.Value = 0;
+
         }
 
         private void progressBar1_Click(object sender, EventArgs e)

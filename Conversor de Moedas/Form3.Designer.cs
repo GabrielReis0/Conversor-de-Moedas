@@ -45,10 +45,12 @@
             label5 = new Label();
             label6 = new Label();
             label7 = new Label();
+            pictureBox5 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -213,12 +215,23 @@
             label7.AutoSize = true;
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.Location = new Point(723, 22);
+            label7.Location = new Point(693, 27);
             label7.Name = "label7";
             label7.Size = new Size(51, 20);
             label7.TabIndex = 26;
             label7.Text = "label7";
             label7.Click += label7_Click;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.BackColor = Color.Transparent;
+            pictureBox5.BackgroundImage = (Image)resources.GetObject("pictureBox5.BackgroundImage");
+            pictureBox5.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox5.Location = new Point(637, 12);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(50, 50);
+            pictureBox5.TabIndex = 27;
+            pictureBox5.TabStop = false;
             // 
             // Form3
             // 
@@ -227,6 +240,7 @@
             BackColor = SystemColors.ActiveCaption;
             BackgroundImage = Properties.Resources.image;
             ClientSize = new Size(819, 535);
+            Controls.Add(pictureBox5);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(label5);
@@ -250,6 +264,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -272,5 +287,6 @@
         private Label label5;
         private Label label6;
         private Label label7;
+        private PictureBox pictureBox5;
     }
 }

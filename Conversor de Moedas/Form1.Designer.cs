@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             button1 = new Button();
             txtNome = new TextBox();
@@ -48,7 +49,7 @@
             button1.BackColor = Color.LightGray;
             button1.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             button1.ForeColor = Color.Black;
-            button1.Location = new Point(914, 527);
+            button1.Location = new Point(213, 309);
             button1.Name = "button1";
             button1.Size = new Size(231, 124);
             button1.TabIndex = 0;
@@ -58,7 +59,7 @@
             // 
             // txtNome
             // 
-            txtNome.Location = new Point(857, 294);
+            txtNome.Location = new Point(156, 76);
             txtNome.Name = "txtNome";
             txtNome.Size = new Size(350, 23);
             txtNome.TabIndex = 1;
@@ -66,7 +67,7 @@
             // 
             // txtGmail
             // 
-            txtGmail.Location = new Point(857, 377);
+            txtGmail.Location = new Point(156, 159);
             txtGmail.Name = "txtGmail";
             txtGmail.Size = new Size(350, 23);
             txtGmail.TabIndex = 2;
@@ -74,7 +75,7 @@
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(857, 459);
+            txtPassword.Location = new Point(156, 241);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(350, 23);
             txtPassword.TabIndex = 3;
@@ -83,9 +84,9 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
+            label1.BackColor = SystemColors.ButtonFace;
             label1.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(857, 263);
+            label1.Location = new Point(157, 49);
             label1.Name = "label1";
             label1.Size = new Size(66, 28);
             label1.TabIndex = 4;
@@ -95,9 +96,9 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.BackColor = Color.Transparent;
+            label2.BackColor = SystemColors.ButtonFace;
             label2.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(857, 349);
+            label2.Location = new Point(157, 132);
             label2.Name = "label2";
             label2.Size = new Size(59, 28);
             label2.TabIndex = 5;
@@ -107,9 +108,9 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.BackColor = Color.Transparent;
+            label3.BackColor = SystemColors.ButtonHighlight;
             label3.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(857, 428);
+            label3.Location = new Point(157, 214);
             label3.Name = "label3";
             label3.Size = new Size(93, 28);
             label3.TabIndex = 6;
@@ -121,7 +122,7 @@
             checkBoxPassword.AutoSize = true;
             checkBoxPassword.BackColor = Color.Transparent;
             checkBoxPassword.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            checkBoxPassword.Location = new Point(1087, 433);
+            checkBoxPassword.Location = new Point(386, 215);
             checkBoxPassword.Name = "checkBoxPassword";
             checkBoxPassword.Size = new Size(120, 19);
             checkBoxPassword.TabIndex = 7;
@@ -134,8 +135,8 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            BackgroundImage = Properties.Resources._360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP;
-            ClientSize = new Size(1478, 754);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(654, 520);
             Controls.Add(checkBoxPassword);
             Controls.Add(label3);
             Controls.Add(label2);

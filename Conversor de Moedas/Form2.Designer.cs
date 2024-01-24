@@ -30,35 +30,23 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             progressBar1 = new ProgressBar();
-            label1 = new Label();
             label2 = new Label();
             btnPágConvert = new Button();
             label3 = new Label();
             pictureBox1 = new PictureBox();
+            label4 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(27, 506);
+            progressBar1.Location = new Point(23, 466);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(829, 23);
+            progressBar1.Size = new Size(609, 23);
             progressBar1.TabIndex = 1;
             progressBar1.Click += progressBar1_Click;
             progressBar1.MouseEnter += progressBar1_MouseHover;
             progressBar1.MouseLeave += progressBar1_MouseLeave;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(27, 475);
-            label1.Name = "label1";
-            label1.Size = new Size(115, 28);
-            label1.TabIndex = 2;
-            label1.Text = "Carregando";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -75,7 +63,7 @@
             // btnPágConvert
             // 
             btnPágConvert.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            btnPágConvert.Location = new Point(526, 344);
+            btnPágConvert.Location = new Point(241, 207);
             btnPágConvert.Name = "btnPágConvert";
             btnPágConvert.Size = new Size(175, 106);
             btnPágConvert.TabIndex = 4;
@@ -88,7 +76,7 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(27, 447);
+            label3.Location = new Point(23, 407);
             label3.Name = "label3";
             label3.Size = new Size(255, 28);
             label3.TabIndex = 6;
@@ -106,19 +94,29 @@
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(117, 104);
+            label4.Name = "label4";
+            label4.Size = new Size(0, 45);
+            label4.TabIndex = 7;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            BackgroundImageLayout = ImageLayout.Zoom;
-            ClientSize = new Size(937, 587);
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(654, 519);
+            Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(pictureBox1);
             Controls.Add(btnPágConvert);
             Controls.Add(label2);
-            Controls.Add(label1);
             Controls.Add(progressBar1);
             Name = "Form2";
             Text = "Form2";
@@ -130,10 +128,10 @@
 
         #endregion
         private ProgressBar progressBar1;
-        private Label label1;
         private Label label2;
         private Button btnPágConvert;
         private Label label3;
         private PictureBox pictureBox1;
+        private Label label4;
     }
 }
