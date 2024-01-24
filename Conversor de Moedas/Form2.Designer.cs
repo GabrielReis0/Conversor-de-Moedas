@@ -40,9 +40,9 @@
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(46, 877);
+            progressBar1.Location = new Point(27, 506);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(1848, 23);
+            progressBar1.Size = new Size(829, 23);
             progressBar1.TabIndex = 1;
             progressBar1.Click += progressBar1_Click;
             progressBar1.MouseEnter += progressBar1_MouseHover;
@@ -53,7 +53,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(46, 846);
+            label1.Location = new Point(27, 475);
             label1.Name = "label1";
             label1.Size = new Size(115, 28);
             label1.TabIndex = 2;
@@ -88,7 +88,7 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(46, 818);
+            label3.Location = new Point(27, 447);
             label3.Name = "label3";
             label3.Size = new Size(255, 28);
             label3.TabIndex = 6;
@@ -113,7 +113,7 @@
             BackColor = SystemColors.ActiveCaption;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Zoom;
-            ClientSize = new Size(870, 749);
+            ClientSize = new Size(937, 587);
             Controls.Add(label3);
             Controls.Add(pictureBox1);
             Controls.Add(btnPágConvert);
