@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,10 +18,9 @@ namespace Conversor_de_Moedas
         public Form2()
         {
             InitializeComponent();
-
-
+            label2.Text = (Utilizador.Nome);
             btnPágConvert.Visible = false;
-          
+
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -92,5 +92,9 @@ namespace Conversor_de_Moedas
 
         }
 
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

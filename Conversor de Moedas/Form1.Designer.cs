@@ -38,6 +38,7 @@
             label2 = new Label();
             label3 = new Label();
             checkBoxPassword = new CheckBox();
+            button2 = new Button();
             SuspendLayout();
             // 
             // backgroundWorker1
@@ -86,7 +87,7 @@
             label1.AutoSize = true;
             label1.BackColor = SystemColors.ButtonFace;
             label1.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(157, 49);
+            label1.Location = new Point(156, 45);
             label1.Name = "label1";
             label1.Size = new Size(66, 28);
             label1.TabIndex = 4;
@@ -98,7 +99,7 @@
             label2.AutoSize = true;
             label2.BackColor = SystemColors.ButtonFace;
             label2.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(157, 132);
+            label2.Location = new Point(156, 128);
             label2.Name = "label2";
             label2.Size = new Size(59, 28);
             label2.TabIndex = 5;
@@ -110,7 +111,7 @@
             label3.AutoSize = true;
             label3.BackColor = SystemColors.ButtonHighlight;
             label3.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(157, 214);
+            label3.Location = new Point(156, 210);
             label3.Name = "label3";
             label3.Size = new Size(93, 28);
             label3.TabIndex = 6;
@@ -120,7 +121,7 @@
             // checkBoxPassword
             // 
             checkBoxPassword.AutoSize = true;
-            checkBoxPassword.BackColor = Color.Transparent;
+            checkBoxPassword.BackColor = SystemColors.ButtonFace;
             checkBoxPassword.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             checkBoxPassword.Location = new Point(386, 215);
             checkBoxPassword.Name = "checkBoxPassword";
@@ -130,6 +131,19 @@
             checkBoxPassword.UseVisualStyleBackColor = false;
             checkBoxPassword.CheckedChanged += checkBox1_CheckedChanged;
             // 
+            // button2
+            // 
+            button2.BackColor = Color.DarkOliveGreen;
+            button2.FlatStyle = FlatStyle.Popup;
+            button2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button2.Location = new Point(12, 12);
+            button2.Name = "button2";
+            button2.Size = new Size(93, 75);
+            button2.TabIndex = 8;
+            button2.Text = "Voltar";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -137,6 +151,7 @@
             BackColor = SystemColors.ActiveCaption;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(654, 520);
+            Controls.Add(button2);
             Controls.Add(checkBoxPassword);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -162,5 +177,6 @@
         private Label label2;
         private Label label3;
         private CheckBox checkBoxPassword;
+        private Button button2;
     }
 }

@@ -760,10 +760,6 @@ namespace Conversor_de_Moedas
         {
         }
 
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
@@ -820,6 +816,11 @@ namespace Conversor_de_Moedas
         private void label7_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -46,6 +46,7 @@
             label6 = new Label();
             label7 = new Label();
             pictureBox5 = new PictureBox();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -55,7 +56,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(289, 306);
+            button1.Location = new Point(275, 322);
             button1.Name = "button1";
             button1.Size = new Size(223, 131);
             button1.TabIndex = 19;
@@ -68,7 +69,7 @@
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(568, 209);
+            label4.Location = new Point(554, 225);
             label4.Name = "label4";
             label4.Size = new Size(119, 28);
             label4.TabIndex = 18;
@@ -80,7 +81,7 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(105, 210);
+            label3.Location = new Point(91, 226);
             label3.Name = "label3";
             label3.Size = new Size(119, 28);
             label3.TabIndex = 17;
@@ -91,7 +92,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(553, 112);
+            label2.Location = new Point(539, 128);
             label2.Name = "label2";
             label2.Size = new Size(148, 28);
             label2.TabIndex = 16;
@@ -102,7 +103,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(105, 113);
+            label1.Location = new Point(91, 129);
             label1.Name = "label1";
             label1.Size = new Size(148, 28);
             label1.TabIndex = 15;
@@ -114,7 +115,7 @@
             pictureBox1.BackgroundImage = Properties.Resources.arrowright_2_;
             pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(268, 137);
+            pictureBox1.Location = new Point(254, 153);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(266, 163);
             pictureBox1.TabIndex = 14;
@@ -123,7 +124,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(553, 251);
+            textBox2.Location = new Point(539, 267);
             textBox2.Name = "textBox2";
             textBox2.ReadOnly = true;
             textBox2.Size = new Size(148, 23);
@@ -131,7 +132,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(105, 252);
+            textBox1.Location = new Point(91, 268);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(148, 23);
             textBox1.TabIndex = 12;
@@ -140,7 +141,7 @@
             // 
             comboBox2.FormattingEnabled = true;
             comboBox2.Items.AddRange(new object[] { "Euro", "Real", "Dólar Americano", "Kwanza", "Libra", "Iene Japonês", "Peso colombiano", "Rúpia Indiana", "Dolár Canadense", "Libra egípcia", "Franco suíço" });
-            comboBox2.Location = new Point(553, 157);
+            comboBox2.Location = new Point(539, 173);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(148, 23);
             comboBox2.TabIndex = 11;
@@ -150,7 +151,7 @@
             // 
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Euro", "Real", "Dolár Americano", "Kwanza", "Libra", "Iene Japonês", "Peso colombiano", "Rúpia Indiana", "Dolár Canadense", "Libra egípcia", "Franco suíço" });
-            comboBox1.Location = new Point(105, 158);
+            comboBox1.Location = new Point(91, 174);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(148, 23);
             comboBox1.TabIndex = 10;
@@ -160,7 +161,7 @@
             // 
             pictureBox3.BackColor = Color.Transparent;
             pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox3.Location = new Point(86, 306);
+            pictureBox3.Location = new Point(72, 322);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(176, 130);
             pictureBox3.TabIndex = 21;
@@ -171,7 +172,7 @@
             // 
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox2.Location = new Point(553, 306);
+            pictureBox2.Location = new Point(539, 322);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(176, 130);
             pictureBox2.TabIndex = 22;
@@ -214,10 +215,10 @@
             // 
             label7.AutoSize = true;
             label7.BackColor = Color.Transparent;
-            label7.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.Location = new Point(693, 27);
+            label7.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
+            label7.Location = new Point(725, 100);
             label7.Name = "label7";
-            label7.Size = new Size(51, 20);
+            label7.Size = new Size(63, 25);
             label7.TabIndex = 26;
             label7.Text = "label7";
             label7.Click += label7_Click;
@@ -227,11 +228,24 @@
             pictureBox5.BackColor = Color.Transparent;
             pictureBox5.BackgroundImage = (Image)resources.GetObject("pictureBox5.BackgroundImage");
             pictureBox5.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox5.Location = new Point(637, 12);
+            pictureBox5.Location = new Point(713, 12);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(50, 50);
+            pictureBox5.Size = new Size(85, 85);
             pictureBox5.TabIndex = 27;
             pictureBox5.TabStop = false;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.DarkOliveGreen;
+            button2.FlatStyle = FlatStyle.Popup;
+            button2.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            button2.Location = new Point(21, 12);
+            button2.Name = "button2";
+            button2.Size = new Size(105, 85);
+            button2.TabIndex = 28;
+            button2.Text = "Voltar";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // Form3
             // 
@@ -240,6 +254,7 @@
             BackColor = SystemColors.ActiveCaption;
             BackgroundImage = Properties.Resources.image;
             ClientSize = new Size(819, 535);
+            Controls.Add(button2);
             Controls.Add(pictureBox5);
             Controls.Add(label7);
             Controls.Add(label6);
@@ -288,5 +303,6 @@
         private Label label6;
         private Label label7;
         private PictureBox pictureBox5;
+        private Button button2;
     }
 }
