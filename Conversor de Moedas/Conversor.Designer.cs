@@ -1,6 +1,6 @@
 ﻿namespace Conversor_de_Moedas
 {
-    partial class Form3
+    partial class Conversor
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Conversor));
             button1 = new Button();
             label4 = new Label();
             label3 = new Label();
@@ -247,7 +247,7 @@
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
-            // Form3
+            // Conversor
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -272,7 +272,7 @@
             Controls.Add(textBox1);
             Controls.Add(comboBox2);
             Controls.Add(comboBox1);
-            Name = "Form3";
+            Name = "Conversor";
             Text = "Form3";
             Load += Form3_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

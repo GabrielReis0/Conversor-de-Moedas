@@ -1,6 +1,6 @@
 ﻿namespace Conversor_de_Moedas
 {
-    partial class Form2
+    partial class Loading
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loading));
             progressBar1 = new ProgressBar();
             label2 = new Label();
             btnPágConvert = new Button();

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Conversor_de_Moedas
 {
-    public partial class Form4 : Form
+    public partial class PáginaInicial : Form
     {
-        public Form4()
+        public PáginaInicial()
         {
             InitializeComponent();
         }
@@ -20,7 +20,7 @@ namespace Conversor_de_Moedas
         private void btnIniciar_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 form1 = new Form1();
+            PáginaRegisto form1 = new PáginaRegisto();
             form1.ShowDialog();
             this.Show();
         }

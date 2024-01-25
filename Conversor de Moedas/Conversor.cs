@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -6,16 +7,18 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading.Tasks.Sources;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Conversor_de_Moedas
 {
-    public partial class Form3 : Form
+    public partial class Conversor : Form
     {
-        public Form3()
+        public Conversor()
         {
             InitializeComponent();
-            label7.Text = (Utilizador.Nome);
+            label7.Text = (utilizador.Nome);
         }
 
         private void Form3_Load(object sender, EventArgs e)
@@ -768,7 +771,7 @@ namespace Conversor_de_Moedas
 
         private void label6_Click(object sender, EventArgs e)
         {
-            label6.Text = (Utilizador.Nome);
+            label6.Text = (utilizador.Nome);
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -822,6 +825,8 @@ namespace Conversor_de_Moedas
         {
             this.Close();
         }
+
+        
     }
 }
 

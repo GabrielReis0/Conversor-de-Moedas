@@ -1,6 +1,6 @@
 ﻿namespace Conversor_de_Moedas
 {
-    partial class Form1
+    partial class PáginaRegisto
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PáginaRegisto));
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             button1 = new Button();
             txtNome = new TextBox();
@@ -54,7 +54,7 @@
             button1.Name = "button1";
             button1.Size = new Size(231, 124);
             button1.TabIndex = 0;
-            button1.Text = "Resgistar";
+            button1.Text = "Registar";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
@@ -144,7 +144,7 @@
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
-            // Form1
+            // PáginaRegisto
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -160,7 +160,7 @@
             Controls.Add(txtGmail);
             Controls.Add(txtNome);
             Controls.Add(button1);
-            Name = "Form1";
+            Name = "PáginaRegisto";
             Text = "Form1";
             Load += Form1_Load;
             ResumeLayout(false);

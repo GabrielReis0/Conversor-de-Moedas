@@ -13,12 +13,12 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Conversor_de_Moedas
 {
-    public partial class Form2 : Form
+    public partial class Loading : Form
     {
-        public Form2()
+        public Loading()
         {
             InitializeComponent();
-            label2.Text = (Utilizador.Nome);
+            label2.Text = (utilizador.Nome);
             btnPágConvert.Visible = false;
 
         }
@@ -49,7 +49,7 @@ namespace Conversor_de_Moedas
 
             progressBar1.Visible = false;
             btnPágConvert.Visible = true;
-            label4.Text = ("Bem vindo," + Utilizador.Nome);
+            label4.Text = ("Bem vindo," + utilizador.Nome);
 
 
         }
@@ -72,7 +72,7 @@ namespace Conversor_de_Moedas
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form3 form3 = new Form3();
+            Conversor form3 = new Conversor();
             form3.ShowDialog();
             this.Show();
         }

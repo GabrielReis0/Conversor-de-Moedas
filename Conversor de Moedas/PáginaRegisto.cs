@@ -1,8 +1,8 @@
 namespace Conversor_de_Moedas
 {
-    public partial class Form1 : Form
+    public partial class PáginaRegisto : Form
     {
-        public Form1()
+        public PáginaRegisto()
         {
             InitializeComponent();
             txtPassword.UseSystemPasswordChar = true;
@@ -65,7 +65,7 @@ namespace Conversor_de_Moedas
             else
             {
 
-                Utilizador.Registar(nome, email, password);
+                utilizador.Registar(nome, email, password);
 
                 MessageBox.Show("Utilizador Registado!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -75,7 +75,7 @@ namespace Conversor_de_Moedas
 
 
                 this.Hide();
-                Form2 form2 = new Form2();
+                Loading form2 = new Loading();
                 form2.ShowDialog();
                 this.Show();
             }
